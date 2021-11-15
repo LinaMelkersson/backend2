@@ -19,22 +19,19 @@ export default {
   width: 20vw;
   display: grid;
   justify-content: center;
-  border: 1px solid rosybrown;
-  border-radius: 15px;
-  box-shadow: 15px 10px 10px rosybrown;
+  background: white;
 }
 
 .imgcard {
   margin-top: 1rem;
   height: 12rem;
   width: 85%;
-  border-radius: 10px;
   justify-self: center;
 }
 
 .textcard {
   text-align: center;
-  font-family: cursive;
+  font-family: roboto;
   color: black;
   margin-bottom: 1rem;
 }
