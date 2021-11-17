@@ -20,6 +20,8 @@ export default {
   display: grid;
   justify-content: center;
   background: white;
+  border-radius: 5px;
+  height: 20rem;
 }
 
 .imgcard {
