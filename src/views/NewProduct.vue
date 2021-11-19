@@ -6,8 +6,7 @@
       <div class="row mb-4">
         <div class="col">
           <div class="form-outline">
-            <input type="text" id="form3Example1" class="form-control border-bottom" v-model="_Categoryes.name"/>
-            <label class="form-label" for="form3Example1">Name of the category:</label>
+            <input placeholder="Name of the category" type="text" id="form3Example1" class="form-control border-bottom" v-model="_Categoryes.name"/>
           </div>
         </div>
       </div>
@@ -38,14 +37,12 @@
       <div class="row mb-4">
         <div class="col">
           <div class="form-outline">
-            <input type="text" id="form3Example1" class="form-control border-bottom" v-model="_Subcategory.name"/>
-            <label class="form-label" for="form3Example1">Name of the product:</label>
+            <input placeholder="Name of the subcategory" type="text" id="form3Example1" class="form-control border-bottom" v-model="_Subcategory.name"/>
           </div>
         </div>
         <div class="col">
           <div class="form-outline">
-            <input type="number" id="form3Example1" class="form-control border-bottom" v-model="_Subcategory.categoryesId"/>
-            <label class="form-label" for="form3Example1">Category ID:</label>
+            <input placeholder="Category ID" type="number" id="form3Example1" class="form-control border-bottom" v-model="_Subcategory.categoryesId"/>
           </div>
         </div>
       </div>
@@ -72,38 +69,32 @@
       <div class="row mb-4">
         <div class="col">
           <div class="form-outline">
-            <input type="text" id="form3Example1" class="form-control border-bottom" v-model="product.name"/>
-            <label class="form-label" for="form3Example1">Name of the product:</label>
+            <input placeholder="Product name" type="text" id="form3Example1" class="form-control border-bottom" v-model="product.name"/>
           </div>
         </div>
         <div class="col">
           <div class="form-outline">
-            <input type="text" id="form3Example2" class="form-control border-bottom" v-model="product.shortDescription"/>
-            <label class="form-label" for="form3Example2">Short description:</label>
+            <input placeholder="Short description" type="text" id="form3Example2" class="form-control border-bottom" v-model="product.shortDescription"/>
           </div>
         </div>
         <div class="col">
           <div class="form-outline">
-            <input type="text" id="form3Example2" class="form-control border-bottom" v-model="product.longDescription"/>
-            <label class="form-label" for="form3Example2">Long description:</label>
+            <input placeholder="Long description" type="text" id="form3Example2" class="form-control border-bottom" v-model="product.longDescription"/>
           </div>
         </div>
         <div class="col">
           <div class="form-outline">
-            <input type="number" id="form3Example2" class="form-control border-bottom" v-model="product.price"/>
-            <label class="form-label" for="form3Example2">Price:</label>
+            <input placeholder="Price" type="number" id="form3Example2" class="form-control border-bottom" v-model="product.price"/>
           </div>
         </div>
         <div class="col">
           <div class="form-outline">
-            <input type="number" id="form3Example2" class="form-control border-bottom" v-model="product.subCategoryesId"/>
-            <label class="form-label" for="form3Example2">Subcategoryes Id:</label>
+            <input placeholder="Subcategory ID" type="number" id="form3Example2" class="form-control border-bottom" v-model="product.subCategoryesId"/>
           </div>
         </div>
         <div class="col">
           <div class="form-outline">
-            <input type="text" id="form3Example2" class="form-control border-bottom" v-model="product.imgurl"/>
-            <label class="form-label" for="form3Example2">Image url:</label>
+            <input placeholder="Image url" type="text" id="form3Example2" class="form-control border-bottom" v-model="product.imgurl"/>
           </div>
         </div>
 
@@ -173,5 +164,21 @@ export default {
 </script>
 
 <style>
+
+.btn {
+  background-color: black;
+  border: none;
+  margin-bottom: 3rem;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
 
 </style>

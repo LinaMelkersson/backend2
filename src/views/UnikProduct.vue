@@ -6,22 +6,21 @@
       <div class="centrerad">
           <img class="unikimg" :src="(product.imgurl)" alt="">
           <div class="produktbeskrivning">
-              <p>{{product.longDescription}}</p>
               <h1>{{product.name}}</h1>
+              <br>
               <p>{{product.shortDescription}}</p>
+              <p>{{product.longDescription}}</p>
+              <br>
               <h3>{{product.price}}kr</h3>
           </div>
 
-            <section class="color">
-                <div class="mt-5">
-
-                    <div class="row mt-3">
-                        <div class="col-md-12 text-center text-md-left text-md-right">
-                            <button class="btn btn-primary btn-rounded" @click="addProductToCart({ product, quantity })">Add to cart</button>
-                        </div>
-                    </div>
+          <div class="mt-5">
+            <div class="row mt-3">
+                <div class="col-md-12 text-center text-md-left text-md-right">
+                  <button class="btn btn-primary btn-rounded" @click="addProductToCart({ product, quantity })">Add to cart</button>
                 </div>
-            </section>
+            </div>
+          </div>
       </div>
     </div>
 </div>
@@ -68,6 +67,18 @@ export default {
 .place {
     margin: auto;
     width: 80%;
+}
+
+
+.btn {
+  background-color: black;
+  border: none;
+  margin-bottom: 3rem;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
 }
 
 .centrerad {
