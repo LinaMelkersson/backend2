@@ -168,7 +168,7 @@ export default {
 .btn {
   background-color: black;
   border: none;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .btn:hover {

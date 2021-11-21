@@ -1,7 +1,6 @@
 <template>
 <div>
     <div class="place" v-if="product">
-      <router-link to="/"><i class="fas fa-arrow-left"></i></router-link>
 
       <div class="centrerad">
           <img class="unikimg" :src="(product.imgurl)" alt="">
@@ -53,20 +52,12 @@ export default {
 </script>
 
 <style>
-.fa-arrow-left {
-    font-size: 20pt;
-    color: black;
-    padding: 2rem;
-    margin-left: 10rem;
-}
 
-.fa-arrow-left:hover {
-    color: rgb(253, 200, 209);
-}
 
 .place {
     margin: auto;
     width: 80%;
+    padding-top: 5rem;
 }
 
 
@@ -93,6 +84,7 @@ export default {
     width: 20rem;
     margin: auto;
 }
+
 
 
 

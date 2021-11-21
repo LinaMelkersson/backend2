@@ -38,6 +38,5 @@ export default {
   grid-template-rows: 1fr 1fr;
   row-gap: 3rem;
   justify-items: center;
-  margin-top: 4rem;
 }
 </style>
